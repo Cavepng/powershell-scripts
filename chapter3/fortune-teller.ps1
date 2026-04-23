@@ -102,36 +102,36 @@ while ($status -ne "Stop") {
         if ($answer -eq 3) { "Ah. The answer is uncertain!" }
         if ($answer -eq 4) { "Ah. The answer is no!" }
     }
+
+    Write-Host
+    Write-Host
+    Write-Host
+    Write-Host
+    Write-Host
+    Write-Host
+    Write-Host
+    Write-Host
+    Write-Host 
+    Write-Host  
+    Write-Host
+    Write-Host
+    Write-Host 
+    Write-Host
+    Write-Host
+    Write-Host
+    Write-Host
+    Write-Host
+    Write-Host
+    Write-Host
+    Write-Host " Press Enter to continue."
+
+
+    Read-Host #Pauses script until player presses enter
+    Clear-Host #Clears terminal
+
+    $reply = read-host "Press Enter to ask another question or type Q to quit"
+    if ($reply -eq "Q") { $status = "Stop" }
 }
-
-Write-Host
-Write-Host
-Write-Host
-Write-Host
-Write-Host
-Write-Host
-Write-Host
-Write-Host
-Write-Host 
-Write-Host  
-Write-Host
-Write-Host
-Write-Host 
-Write-Host
-Write-Host
-Write-Host
-Write-Host
-Write-Host
-Write-Host
-Write-Host
-Write-Host " Press Enter to continue."
-
-
-Read-Host #Pauses script until player presses enter
-Clear-Host #Clears terminal
-
-$reply = read-host "Press Enter to ask another question or type Q to quit."
-if ($reply -eq "Q") { $status = "Stop" }
 
 Clear-Host
 
